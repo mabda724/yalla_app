@@ -1,0 +1,38 @@
+# Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+*.iml
+.idea/
+.vscode/
+*.lock
+*.log
+
+# Env
+assets/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android
+android/.gradle/
+android/app/build/
+android/local.properties
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+
+# Web
+web/.well-known/
+
+# Windows
+windows/runner/Debug/
+windows/runner/Release/
+windows/runner/x64/
+
+# Linux
+linux/flutter/ephemeral/
+linux/runner/build/

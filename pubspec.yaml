@@ -1,0 +1,34 @@
+name: yalla_app
+description: "Yalla - Food & Grocery Delivery for Gen Z"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.8.4
+  flutter_riverpod: ^2.5.1
+  google_fonts: ^6.2.1
+  flutter_dotenv: ^5.2.1
+  cached_network_image: ^3.4.1
+  intl: ^0.20.2
+  geolocator: ^13.0.2
+  image_picker: ^1.1.2
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/.env
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
